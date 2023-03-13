@@ -1,19 +1,21 @@
-import React, { useEffect } from 'react'
+import React from "react";
 
-const ListPostsView = () => {
-                useEffect(() => {
+const ListPostsView = ({data}) => {
+  
+  return <div className="container">
+    {
+      data.map(post=>(
+        
+        <div className="post">
+          <div className="post-info">
+            <h1>{post.title}</h1>
+             <p>{post.user}</p>
+          </div>
+          <p>{post.text}</p>
+           </div>
+      ))
+    }
+  </div>;
+};
 
-
-                                return () => {
-                                                
-                                }
-                }, [])
-
-                return (
-                                <div className='container'>
-
-                                </div>
-                )
-}
-
-export default ListPostsView
+export default ListPostsView;

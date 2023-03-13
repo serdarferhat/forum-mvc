@@ -4,13 +4,13 @@
                 "id":1,
                 "user":"Ferman",
                 "title":"Şanzıman Yağı Mekanik Sorunları Nedir?",
-                "text-box":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
+                "text":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
                 },
                 {
                                 "id":1,
                                 "user":"Ferman",
                                 "title":"Şanzıman Yağı Mekanik Sorunları Nedir?",
-                                "text-box":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
+                                "text":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
                                 }
    ]             
 }
