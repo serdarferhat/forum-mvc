@@ -5,12 +5,34 @@
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(136, 132, 132);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  color: #FC5404;
 }
 
 .container {
-  width: 70vw;
-  background-color: black;
+  width: 80vw;
   height: 100vh;
   margin: auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+.container .post {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.container .post-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

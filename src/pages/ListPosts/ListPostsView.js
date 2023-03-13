@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "../../components/Header";
 
 const ListPostsView = ({data}) => {
   
-  return <div className="container">
+  return(
+     <>
+     <Header/>
+    <div className="container">
     {
       data.map(post=>(
         
@@ -11,11 +15,15 @@ const ListPostsView = ({data}) => {
             <h1>{post.title}</h1>
              <p>{post.user}</p>
           </div>
-          <p>{post.text}</p>
+          <p className="post-text">{post.text}</p>
            </div>
       ))
     }
   </div>;
+  </>
+  )
+  
+  
 };
 
 export default ListPostsView;
