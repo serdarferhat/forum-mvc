@@ -10,7 +10,7 @@ const ListPostsView = ({data}) => {
     {
       data.map(post=>(
         
-        <div className="post">
+        <div className="post" key={post.id}>
           <div className="post-info">
             <h1>{post.title}</h1>
              <p>{post.user}</p>

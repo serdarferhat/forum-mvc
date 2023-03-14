@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(231, 204, 170);
+  background-color: rgb(253, 214, 167);
 }
 
 #header {
@@ -46,12 +46,13 @@ form {
   width: 50vw;
   margin: 150px auto;
   height: 60vh;
-  background-color: #a7957a;
+  background-color: #d4b689;
   padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-radius: 15px;
 }
 form fieldset {
   display: flex;
@@ -62,6 +63,7 @@ form fieldset input {
   max-width: 350px;
   padding: 10px 20px;
   border-radius: 15px;
+  border: none;
 }
 form button {
   padding: 8px 20px;
