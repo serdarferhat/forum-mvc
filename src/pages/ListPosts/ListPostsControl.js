@@ -5,8 +5,16 @@ import ListPostsView from './ListPostsView'
 
 const ListPostsControl = () => {
    const [data,setData]=useState([])
-   console.log(data)
-
+   const [filteredData,setFilteredData]=useState([])
+  //  console.log(data)
+  const [showModal,setShowModal]=useState(false)
+   const user=(user)=>{
+    // alert(user)
+    const filtered=data.filter(post=>post.user===user);
+    // console.log(filtered)
+    setFilteredData(filtered)
+    setShowModal(true)
+  }
 
    useEffect(() => {
      axios.get("http://localhost:3035/posts")
@@ -15,7 +23,12 @@ const ListPostsControl = () => {
    }, [])
    
 
-  return <ListPostsView data={data}/>
+  return <ListPostsView 
+  user={user} 
+  data={data}
+  showModal={showModal}
+  setShowModal={setShowModal}
+  filteredData={filteredData}/>
 }
 
 export default ListPostsControl

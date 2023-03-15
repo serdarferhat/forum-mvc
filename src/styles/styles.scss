@@ -71,3 +71,26 @@ form{
     border: none;
   }
 }
+//modal
+.modal{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50vh;
+  height: auto;
+  background-color: #7395a3;
+padding: 60px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+border-radius: 15px;
+h1{
+  span{
+    color:#d4b689;
+  }
+}
+&-post{
+  background-color: #d4b689;
+}
+}
