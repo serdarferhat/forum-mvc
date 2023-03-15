@@ -8,7 +8,6 @@ export const ModalView = ({ showModal, setShowModal, filteredData }) => {
           <h1>
             <span>{filteredData[0].user}</span> Kullanıcının Attığı Postlar
           </h1>
-          <button onClick={() => setShowModal(false)}>Kapat</button>
           {
                 filteredData.map(post=>(
                <div className="modal-post" key={post.id}>
@@ -17,6 +16,8 @@ export const ModalView = ({ showModal, setShowModal, filteredData }) => {
                </div>
                 ))
           }
+          <button onClick={() => setShowModal(false)}>Kapat</button>
+          
         </div>
       )}
     </>
