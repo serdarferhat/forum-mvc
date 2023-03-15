@@ -1,16 +1,22 @@
 {
-   "posts":[
-                {
-                "id":1,
-                "user":"Ferman",
-                "title":"Mekanik Sorunları Nedir?",
-                "text":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
-                },
-                {
-                                "id":1,
-                                "user":"Ferman",
-                                "title":"Şanzıman Yağı Nasıl Kullanılmalı?",
-                                "text":"Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
-                                }
-   ]             
+  "posts": [
+    {
+      "id": 1,
+      "user": "Ferman",
+      "title": "Mekanik Sorunları Nedir?",
+      "text": "Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
+    },
+    {
+      "id": 2,
+      "user": "Ferman",
+      "title": "Şanzıman Yağı Nasıl Kullanılmalı?",
+      "text": "Tfsi Şanzıman üç bakımda bir yağ değişimi olmalıdır..."
+    },
+    {
+      "id": 1678866089195,
+      "user": "derman",
+      "title": "tfsi çalışma mantığı?",
+      "text": "sport olduğunda vites 7 ileriden 6 ileriye dönüüşür.."
+    }
+  ]
 }
